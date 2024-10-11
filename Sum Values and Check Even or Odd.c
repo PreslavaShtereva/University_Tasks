@@ -5,30 +5,30 @@ int main() {
 	int n;
 	int arr[100];
 
-	printf("Anzahl der Werte: ");
+	printf("Number of values: ");
 	scanf("%d", &n);
 
 
 	while (n > 100 || n < 0) {
 
-		printf("Bitte geben Sie einen korrekten Wert: ");
+		printf("Please enter a correct value: ");
 		scanf("%d", &n);
 	}
 
 
 	for (int i = 0; i < n; i++) {
 
-		printf("Alle Werte: ", i+1);
+		printf("Enter all values: ", i+1);
 		scanf("%d", &arr[i]);
 
 	}
 
-	int summe = 0;
+	int sum = 0;
 
 	for (int i = 0; i < n; i++) {
-		summe += arr[i];
+		sum += arr[i];
 	}
-	if (summe % 2 == 0) {
+	if (sum % 2 == 0) {
 		printf("even");
 	}
 	else {
