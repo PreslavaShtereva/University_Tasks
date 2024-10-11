@@ -4,14 +4,14 @@ int main() {
 
     int n;
 
-    printf("Wert für n: ");
+    printf("Value for n: ");
     scanf("%d", &n);
 
     if (n == 0 || n < 0) {
-        printf("Der Wert ist nicht korrekt");
+        printf("The value is not correct");
     }
     else {
-        printf("Die Ergebnisse sind: ");
+        printf("The results are: ");
 
         for (int i = 1; i <= n; i += 2) {
             printf("%d ", i);
