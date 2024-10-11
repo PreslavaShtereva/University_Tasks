@@ -4,17 +4,17 @@ int main() {
 
 	int n, factorial = 1;
 
-	printf("Wert für n: ");
+	printf("Value for n: ");
 	scanf_s("%d", &n);
 
 	if (n < 0) {
-		printf("Bitte geben Sie einen positiven Wert");
+		printf("Please enter a positive value");
 	}
 	else {
 		for (int i = 1; i <= n; ++i) {
 			factorial *= i;
 		}
-		printf("Das Ergebniss ist: %d", factorial);
+		printf("The result is: %d", factorial);
 	}
 	return 0;
 }
